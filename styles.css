@@ -1,0 +1,76 @@
+/* * {
+    border: 2px white solid;
+} */
+
+body {
+    margin: 0;
+    background-color: #2A343C;
+    color: #F0FFFF;
+    font-family: Mukta, sans-serif;
+}
+
+/* start of navbar code */
+
+#navbar {
+    height: 100px;
+    width: 100%;
+    background-color: #080F0F;
+    display: flex;
+    align-items: center;
+}
+
+#nav-list {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    position: absolute;
+    right: 25px;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: #F0FFFF;
+    font-size: 40px;
+}
+
+#ror-logo {
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 25px
+}
+
+#logo-text {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+/* end of navbar code */
+
+/* start of header screen code */
+
+#title-screen {
+    height: (100vh - 100px);
+}
+
+#title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.unbold {
+    font-weight: 300;
+}
+
+#discord-ss {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+
+
+
+
+/* end of headser screen code */
