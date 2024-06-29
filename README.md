@@ -12,7 +12,7 @@ This project was mainly built for me to sharpen up my Code-Writing skills after 
 
 ### What is Road of Rinth?
 
-Road of Rinth is an action-adventure web-novel with a slightly fantasy setting which spans across (a planned) 8 arcs.
+Road of Rinth is an action-adventure web-novel with a contemporary fantasy setting which spans across (a planned) 8 arcs.
 
 It is a hobby project by me, so ~~consistency in chapter releases will never be a thing.~~
 
