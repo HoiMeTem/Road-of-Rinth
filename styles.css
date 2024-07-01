@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 2px white solid;
-}
+} */
 
 body {
     margin: 0;
@@ -14,7 +14,7 @@ body {
 
 #navbar {
     height: 100px;
-    width: 100%;
+    width: 100vw;
     background-color: #080F0F;
     display: flex;
     align-items: center;
@@ -160,9 +160,9 @@ body {
     background-color: #080F0F;
     display: grid;
     grid-template-areas: 
-    "wiki news"
-    "resources news"
-    "discord news";
+    "wiki       news"
+    "resources  news"
+    "discord    news";
     grid-template: 3 / 2;
     justify-content: space-around;
     align-content: space-around;
@@ -171,37 +171,83 @@ body {
 
 .extras-pill {
     width: 400px;
-    height: 100px;
+    height: 90px;
     background-color: #00a86b;
-    border-radius: 100px;
+    border-radius: 50px;
     font-size: 30px;
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr / 30px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/* Next update lmao */
 .line-horiz, .line-vert {
-    background-color: white;
+    /* background-color: white;
     width: 5px;
     height: 30px;
-    position: absolute;
+    position: absolute; */
+    display: none;
 }
 
 #wiki {
     grid-area: wiki;
 }
 
+#wiki:hover {
+    background-color: black;
+}
+
 #resources {
     grid-area: resources;
 }
 
+#resources:hover {
+    background-color: black;
+}
+
 #discord {
     grid-area: discord;
+    position: relative;
+}
+
+#discord:hover {
+    background-color: #7289da;
+}
+
+.full-link {
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 #news-board {
     grid-area: news;
+    background-color: #2A343C;
+    width: 400px;
+    border-radius: 5px;
+}
+
+#news-title {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.news-node {
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+
+.news-text {
+    font-size: 20px;
+}
+
+.news-date {
+    font-size: 12px;
+    font-style: italic;
 }
 
 /* end of extras section code */
