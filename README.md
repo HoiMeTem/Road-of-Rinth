@@ -17,3 +17,11 @@ Road of Rinth is an action-adventure web-novel with a contemporary fantasy setti
 It is a hobby project by me, so ~~consistency in chapter releases will never be a thing.~~
 
 More information can be found in the website. _Otherwise, why the hell would I make it in the first place??_
+
+---
+
+To-do:
+
+- Create a Reader
+- Make CSS Responsive
+- CONTINUE STORY
