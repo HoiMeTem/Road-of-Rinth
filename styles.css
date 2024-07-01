@@ -1,6 +1,6 @@
-/* * {
+* {
     border: 2px white solid;
-} */
+}
 
 body {
     margin: 0;
@@ -90,7 +90,7 @@ body {
 #chapter-board {
     background-color: #080F0F;
     height: 75%;
-    width: 75%;
+    width: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -150,6 +150,58 @@ body {
     transition-delay: 200ms;
 }
 
-
-
 /* end of chapter section code */
+
+/* start of extras section code */
+
+#extras {
+    width: 100%;
+    height: 75vh;
+    background-color: #080F0F;
+    display: grid;
+    grid-template-areas: 
+    "wiki news"
+    "resources news"
+    "discord news";
+    grid-template: 3 / 2;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+
+.extras-pill {
+    width: 400px;
+    height: 100px;
+    background-color: #00a86b;
+    border-radius: 100px;
+    font-size: 30px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr / 30px;
+
+}
+
+.line-horiz, .line-vert {
+    background-color: white;
+    width: 5px;
+    height: 30px;
+    position: absolute;
+}
+
+#wiki {
+    grid-area: wiki;
+}
+
+#resources {
+    grid-area: resources;
+}
+
+#discord {
+    grid-area: discord;
+}
+
+#news-board {
+    grid-area: news;
+}
+
+/* end of extras section code */
